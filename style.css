@@ -275,9 +275,15 @@ body{
     border-radius: 10px;
     
 }
+.spotify-playlist {
+    text-decoration: none;
+}
+.spotify-playlist:hover{
+    text-decoration: underline;
+}
 .show-all{
     font-size: 15px;
-    color: rgb(102, 91, 91);
+    color: #b3b3b3;
     font-weight: 700px;
     text-decoration: none;
   
