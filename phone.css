@@ -14,6 +14,67 @@ body {
     padding: 32px;
     background-color: black;
 }
+
 .img {
     height: 36px;
+}
+
+.phone {
+    height: 500px;
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center     ; */
+}
+
+.phone h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.code-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.code-number select {
+    border-radius: 4px;
+    color: #fff;
+    background-color: #121212;
+    height: 50px;
+    width: 100px;
+}
+
+.code-number input {
+    padding-left: 20px;
+    height: 50px;
+    border-radius: 4px;
+    width: 500px;
+    border: 1px solid #5f5757;
+    background-color: #121212;
+    outline: none;
+    color: #fff;
+}
+
+.next {
+ 
+    flex-direction: column;
+    width: 650px;
+ 
+    height: 300px;
+ 
+}
+
+.next button {
+    display: block;
+    background-color: green;
+    color: black;
+    height: 50px;
+    width: 70px;
+    border-radius: 5px;
+    margin-top: 20px;
 }
