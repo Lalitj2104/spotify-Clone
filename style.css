@@ -275,6 +275,24 @@ body{
     border-radius: 10px;
     
 }
+.show-all{
+    font-size: 15px;
+    color: rgb(102, 91, 91);
+    font-weight: 700px;
+    text-decoration: none;
+  
+}
+
+.show-all-h2{
+    margin-right: 40px;
+}
+
+.header-of-music{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-of-music
 .spotifyplaylist h2 a{
     color:white;
     font-size:22px;

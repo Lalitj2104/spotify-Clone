@@ -155,9 +155,10 @@ body{
     /* padding :10px 20px 10px 20px; */
     margin-left: 27px;
 
-    border: 1px solid rgb(129, 127, 127);
+    /* border: 1px solid rgb(129, 127, 127); */
     border-radius: 50px;
     margin-bottom: 9px;
+    
 }
 .english i{
     font-size: 18px;
@@ -190,8 +191,41 @@ body{
         border-radius: 10px;
 
     }
+
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:  0.5px solid white;
+    border-radius: 20px;
+    background-color: #121212;
+}
+.search-box i{
+    font-size: 24px;
+    padding-left: 5px;
+    padding-right: 0px;
+    font-weight:500;
+    color: #b3b3b3;
+}
+
+.search-box input{
+    padding-left: 7px;
+    padding-right: 5px;
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+    color: wheat;
+     
+    outline: none;
+    border: none;
+    background-color: #121212;
+}
 .navbar .left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 30px;
+    
     margin-left: 30px;
 }
 
